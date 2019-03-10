@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import Dashboard from './components/Dashboard';
-import Menu from './components/Menu';
+import HeaderCom from './components/HeaderCom';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Menu />
-        <Dashboard />
+        <HeaderCom />
       </div>
     );
   }

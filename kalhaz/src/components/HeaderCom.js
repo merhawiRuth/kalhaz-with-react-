@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Menu extends Component {
+class HeaderCom extends Component {
   render() {
     return (
       <div className="ui large top fixed hidden menu">
@@ -23,4 +23,4 @@ class Menu extends Component {
   }
 }
 
-export default Menu;
+export default HeaderCom;
